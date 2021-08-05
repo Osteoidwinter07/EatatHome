@@ -7,22 +7,29 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
+import org.androidannotations.annotations.AfterViews;
+import org.androidannotations.annotations.Click;
+import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.ViewById;
+
+import io.realm.Realm;
+
+@EActivity(R.layout.activity_main);
 public class MainActivity extends AppCompatActivity {
-    private EditText UsernameLogin;
-    private EditText PasswordLogin;
-    private CheckBox RememberMe;
-    private Button SubmitLogin;
-    private Button Register;
+    @ViewById(R.id.inputPasswordLogin)
+    EditText UsernameLogin;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    @ViewById(R.id.inputPasswordLogin)
+    EditText PasswordLogin;
 
-        UsernameLogin = findViewById(R.id.inputUsernameLogin);
-        PasswordLogin = findViewById(R.id.inputPasswordLogin);
-        RememberMe = findViewById(R.id.rememberMe);
-        SubmitLogin = findViewById(R.id.submitBtnLogin);
-        Register = findViewById(R.id.registerBtnLogin);
+    @ViewById(R.id.rememberMe)
+    EditText RememberMe;
+
+    Realm realm;
+
+
+    @Click(R.id.submitBtnLogin)
+    public void add(){
+
     }
 }
