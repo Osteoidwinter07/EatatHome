@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity3 extends AppCompatActivity {
+import org.androidannotations.annotations.Click;
+import org.androidannotations.annotations.ViewById;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+public class MainActivity3 extends AppCompatActivity {
+    @Click(R.id.viewOrdersMM){
+
     }
 }
