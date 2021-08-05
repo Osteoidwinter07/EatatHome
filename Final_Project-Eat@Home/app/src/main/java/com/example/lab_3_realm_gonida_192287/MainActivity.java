@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Click(R.id.submitBtnLogin)
-    public void add(){
+    public void login(){
 
     }
 }
