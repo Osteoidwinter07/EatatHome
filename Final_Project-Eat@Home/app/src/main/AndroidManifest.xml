@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab_3RealmGonida192287">
-        <activity android:name=".Edit_Customer_Details"></activity>
-        <activity android:name=".Edit_Food_Items"></activity>
+        <activity android:name=".Edit_Order_Page"></activity>
+        <activity android:name=".UserManagement_Page" />
+        <activity android:name=".Add_Food_Item" />
+        <activity android:name=".User_Management_Page" />
+        <activity android:name=".Driver_Main_Menu" />
+        <activity android:name=".Edit_Customer_Details" />
+        <activity android:name=".Edit_Food_Items" />
         <activity android:name=".Add_Order_Page" />
         <activity android:name=".Update_Customer_Details" />
         <activity android:name=".View_Order_List" />

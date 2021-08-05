@@ -88,7 +88,7 @@
         app:layout_constraintVertical_bias="0.775" />
 
     <EditText
-        android:id="@+id/totalPriceAO2"
+        android:id="@+id/ContactNumberECD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

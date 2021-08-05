@@ -4,25 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity3"
+    tools:context=".Driver_Main_Menu"
     android:background="@drawable/backgroundforfinalproject">
 
     <Button
-        android:id="@+id/foodDetailsMM"
-        android:layout_width="125sp"
-        android:layout_height="56sp"
-        android:text="FOOD DETAILS"
-        android:textColor="#918686"
-        app:backgroundTint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.79"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.361" />
-
-    <Button
-        android:id="@+id/viewOrdersMM"
+        android:id="@+id/viewOrdersDriver"
         android:layout_width="125sp"
         android:layout_height="56sp"
         android:text="VIEW ORDERS"
@@ -36,24 +22,10 @@
         app:layout_constraintVertical_bias="0.361" />
 
     <Button
-        android:id="@+id/manageUsersMM"
+        android:id="@+id/foodDetailsDriver"
         android:layout_width="125sp"
         android:layout_height="56sp"
-        android:text="MANAGE USERS"
-        android:textColor="#918686"
-        app:backgroundTint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
-
-    <Button
-        android:id="@+id/LogOutBtnMM"
-        android:layout_width="125sp"
-        android:layout_height="56sp"
-        android:text="LOG OUT"
+        android:text="FOOD DETAILS"
         android:textColor="#918686"
         app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,38 +33,10 @@
         app:layout_constraintHorizontal_bias="0.79"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
-
-    <Button
-        android:id="@+id/addFoodMM"
-        android:layout_width="125sp"
-        android:layout_height="56sp"
-        android:text="ADD FOOD"
-        android:textColor="@color/white"
-        app:backgroundTint="#918686"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482" />
-
-    <Button
-        android:id="@+id/CustomerDetailsMM"
-        android:layout_width="125sp"
-        android:layout_height="56sp"
-        android:text="CUSTOMER DETAILS"
-        android:textColor="@color/white"
-        app:backgroundTint="#918686"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.79"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482" />
+        app:layout_constraintVertical_bias="0.361" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MAIN MENU"
@@ -105,10 +49,10 @@
         app:layout_constraintVertical_bias="0.217" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ADMIN"
+        android:text="DRIVER"
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -116,4 +60,60 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.121" />
+
+    <Button
+        android:id="@+id/addFoodDriver"
+        android:layout_width="125sp"
+        android:layout_height="56sp"
+        android:text="ADD FOOD"
+        android:textColor="@color/white"
+        app:backgroundTint="#918686"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <Button
+        android:id="@+id/CustomerDetailsDriver"
+        android:layout_width="125sp"
+        android:layout_height="56sp"
+        android:text="CUSTOMER DETAILS"
+        android:textColor="#918686"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <Button
+        android:id="@+id/addOrdersDriver"
+        android:layout_width="125sp"
+        android:layout_height="56sp"
+        android:text="ADD ORDERS"
+        android:textColor="@color/white"
+        app:backgroundTint="#918686"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <Button
+        android:id="@+id/LogOutDriver"
+        android:layout_width="125sp"
+        android:layout_height="56sp"
+        android:text="LOG OUT"
+        android:textColor="#918686"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
 </androidx.constraintlayout.widget.ConstraintLayout>
