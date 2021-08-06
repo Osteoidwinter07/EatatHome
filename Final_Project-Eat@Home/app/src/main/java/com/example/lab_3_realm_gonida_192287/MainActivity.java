@@ -13,8 +13,7 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 import io.realm.Realm;
-
-@EActivity(R.layout.activity_main);
+@EActivity
 public class MainActivity extends AppCompatActivity {
     @ViewById(R.id.inputPasswordLogin)
     EditText UsernameLogin;
@@ -27,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
     Realm realm;
 
-
     @Click(R.id.submitBtnLogin)
     public void login(){
 
     }
+
 }
